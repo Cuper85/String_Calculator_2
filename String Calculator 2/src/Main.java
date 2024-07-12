@@ -22,7 +22,7 @@ public class Main {
                 throw new Exception("Строчку можно делить или умножать только на число");
             }
         }
-        if (one.length() < 1 || two.length() > 10) {
+        if (one.length() > 10 || two.length() > 10) {
             throw new Exception("Длина строк не должна превышать 10 символов");
         }
 
